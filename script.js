@@ -12,10 +12,15 @@
     fetch(url)
     .then(response => response.json())
     .then(data => {
+      console.log(data); 
       let hello = document.getElementById('hello'); 
       let city = document.getElementById('city');
+      let condition = document.getElementById('condition');
+      let country = document.getElementById('country'); 
       let currentTemperature = data.current.temp_c;
       console.log(`The current temperature is ${currentTemperature} degrees Celsius.`);
+      country.textContent = data.location.country; 
+      condition.textContent = data.current.condition.text; 
       hello.textContent = currentTemperature + '˚';
       city.textContent = data.location.name;
     })
@@ -29,8 +34,13 @@
       fetch(url)
       .then(response => response.json())
       .then(data => {
+        console.log(data); 
         let hello = document.getElementById('hello'); 
         let city = document.getElementById('city');
+        let condition = document.getElementById('condition');
+        let country = document.getElementById('country');
+        country.textContent = data.location.country; 
+        condition.textContent = data.current.condition.text; 
         let currentTemperature = data.current.temp_c;
         console.log(`The current temperature is ${currentTemperature} degrees Celsius.`);
         hello.textContent = currentTemperature + '˚';
