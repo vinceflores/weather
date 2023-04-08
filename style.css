@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Gugi&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Rubik:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* font-family: 'Gugi', cursive; */
+    font-family: 'Aboreto', cursive;
+}
+
+
+.container  {
+    display: flex;
+    gap: 10px;
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+}
+
+.container h1{
+    font-size: 160px;
+}
+
+.temp{
+    height: 400px;
+    width: 400px;
+    margin: 60px 100px  0 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    gap: 0.5rem;
+}
+
+.temp h1{
+    margin-left: 2rem;
+}
+
+.row{
+    display: flex;
+    gap: 5px;
+}
+
+.row input, button{
+    border-color: 0.5px solid white;
+    box-shadow: none;
+    height: 30px;
+}
+
+#btn{
+    background-color: lightcoral;
+    color: white;
+}

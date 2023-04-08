@@ -1,0 +1,2 @@
+-Background color depends on the 
+-default to current location
