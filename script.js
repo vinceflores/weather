@@ -7,7 +7,7 @@
     const btn = document.getElementById('btn'); 
 
     let cityName  ="Toronto"; // TODO change to current location city
-    let url = 'http://api.weatherapi.com/v1/current.json?key=0cbb7e4fc1764d81ae3154623230704&q=' + cityName +'&aqi=no';
+    let url = 'https://api.weatherapi.com/v1/current.json?key=0cbb7e4fc1764d81ae3154623230704&q=' + cityName +'&aqi=no';
     
     fetch(url)
     .then(response => response.json())
