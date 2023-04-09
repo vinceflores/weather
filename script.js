@@ -1,45 +1,48 @@
 
 
-
     
     const container = document.querySelector("[data-container]");
     const input = document.querySelector("[data-input]") ; 
     const btn = document.getElementById('btn'); 
 
-    let cityName  ="Toronto"; // TODO change to current location city
-    let url = 'https://api.weatherapi.com/v1/current.json?key=0cbb7e4fc1764d81ae3154623230704&q=' + cityName +'&aqi=no';
+    // let cityName  ="Toronto"; // TODO change to current location city
     
-    fetch(url)
-    .then(response => response.json())
-    .then(data => {
-      console.log(data); 
-      let hello = document.getElementById('hello'); 
-      let city = document.getElementById('city');
-      let condition = document.getElementById('condition');
-      let country = document.getElementById('country'); 
-      let currentTemperature = data.current.temp_c;
-      console.log(`The current temperature is ${currentTemperature} degrees Celsius.`);
-      country.textContent = data.location.country; 
-      condition.textContent = data.current.condition.text; 
-      hello.textContent = currentTemperature + '˚';
-      city.textContent = data.location.name;
-    })
-    .catch(error => console.error(error));
+    let cityName = ""
+
+    let url = 'https://api.weatherapi.com/v1/current.json?key=0cbb7e4fc1764d81ae3154623230704&q=' + cityName +'&aqi=no';
+    let hello = document.getElementById('hello'); 
+    let city = document.getElementById('city');
+    let condition = document.getElementById('condition');
+    let country = document.getElementById('country'); 
+
+    // window.onload = () => getWeather(url); 
+    window.onload = () =>{
+      getAddress()
+      .then(i => {
+        cityName = i.city 
+        console.log(cityName)
+        url = 'https://api.weatherapi.com/v1/current.json?key=0cbb7e4fc1764d81ae3154623230704&q=' + cityName +'&aqi=no';
+        getWeather(url); 
+      })
+
+    }; 
+
     
     function handleClick(){
       cityName =document.getElementById('inp').value;
       document.getElementById('inp').value = "";
-      let url = 'https://api.weatherapi.com/v1/current.json?key=0cbb7e4fc1764d81ae3154623230704&q=' + cityName +'&aqi=no';
+       url = 'https://api.weatherapi.com/v1/current.json?key=0cbb7e4fc1764d81ae3154623230704&q=' + cityName +'&aqi=no';
       
-      fetch(url)
+      getWeather(url); 
+    }
+
+    async function getWeather(url){
+      await fetch(url)
       .then(response => response.json())
       .then(data => {
+
         console.log(data); 
-        let hello = document.getElementById('hello'); 
-        let city = document.getElementById('city');
-        let condition = document.getElementById('condition');
-        let country = document.getElementById('country');
-        country.textContent = data.location.country; 
+        country.textContent = data.location.region + ', '+ data.location.country; 
         condition.textContent = data.current.condition.text; 
         let currentTemperature = data.current.temp_c;
         console.log(`The current temperature is ${currentTemperature} degrees Celsius.`);
@@ -47,8 +50,33 @@
         city.textContent = data.location.name;
       })
       .catch(error => console.error(error));
-    
     }
+
+
+
+
+
+async  function getAddress(){
+  let link = 'https://ipinfo.io/json?token=be81657bc7091e';
+  let address = {}; 
+  let city = await fetch(link)
+  .then(item  => item.json())
+  .then(data => {
+    console.log(data); 
+
+     address = {
+      city : data.city, 
+      country: data.country, 
+      region: data.region 
+    }
+    
+    // console.log('this is after fetch', address); 
+    // return data.city;
+    return address
+  })
+  return city
+
+}
 
      
 

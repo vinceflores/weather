@@ -41,6 +41,9 @@
 .temp h1{
     margin-left: 2rem;
 }
+.temp p{
+    font-size: 12px;
+}
 
 .row{
     display: flex;
