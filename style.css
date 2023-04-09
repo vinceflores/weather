@@ -27,7 +27,7 @@
 
 .temp{
     height: 400px;
-    width: 400px;
+    width: 300px;
     margin: 60px 100px  0 100px;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@
 }
 
 .temp h1{
-    margin-left: 2rem;
+    /* margin-left: 0.8rem; */
 }
 
 

@@ -1,6 +1,7 @@
 
 -add prompts
 -make app responsive
+-be able to go back to other cities that has already been searched for
 -Background color depends on the 
 - add an onEnter function
 

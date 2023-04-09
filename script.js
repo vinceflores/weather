@@ -46,6 +46,23 @@
         condition.textContent = data.current.condition.text; 
         let currentTemperature = data.current.temp_c;
         console.log(`The current temperature is ${currentTemperature} degrees Celsius.`);
+        let temperature = parseInt(currentTemperature); 
+        if(temperature >= 0){
+          if(temperature < 10){
+            hello.style.marginLeft = '3rem'; 
+          }else{
+            hello.style.marginLeft = ''; 
+          }
+          console.log(hello.style.marginLeft)
+        }else {
+          temperature*= -1; 
+          if(temperature < 10){
+            hello.style.marginLeft = '2rem'; 
+          }else{
+            hello.style.marginLeft = '-1.2rem'; 
+          }
+        }
+
         hello.textContent = parseInt(currentTemperature) + '˚';
         city.textContent = data.location.name;
         document.getElementById('icon').src = data.current.condition.icon;
