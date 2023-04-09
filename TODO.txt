@@ -1,2 +1,6 @@
+
+-add prompts
+-make app responsive
 -Background color depends on the 
--default to current location
+- add an onEnter function
+

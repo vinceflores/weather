@@ -46,8 +46,9 @@
         condition.textContent = data.current.condition.text; 
         let currentTemperature = data.current.temp_c;
         console.log(`The current temperature is ${currentTemperature} degrees Celsius.`);
-        hello.textContent = currentTemperature + '˚';
+        hello.textContent = parseInt(currentTemperature) + '˚';
         city.textContent = data.location.name;
+        document.getElementById('icon').src = data.current.condition.icon;
       })
       .catch(error => console.error(error));
     }
