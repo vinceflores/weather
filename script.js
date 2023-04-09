@@ -52,6 +52,7 @@
             hello.style.marginLeft = '3rem'; 
           }else{
             hello.style.marginLeft = ''; 
+            hello.style.fontSize = '155px'
           }
           console.log(hello.style.marginLeft)
         }else {
@@ -60,6 +61,7 @@
             hello.style.marginLeft = '2rem'; 
           }else{
             hello.style.marginLeft = '-1.2rem'; 
+            hello.style.fontSize = '155px'
           }
         }
 
