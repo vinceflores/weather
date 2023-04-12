@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Gugi&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Rubik:wght@300&display=swap');
 
+:root {
+    --image-link: 'https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?cs=srgb&dl=pexels-francesco-ungaro-281260.jpg&fm=jpg' ;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +16,9 @@
 .container  {
     display: flex;
     gap: 10px;
-    background-color: yellow;
+    background-image:  url('https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?cs=srgb&dl=pexels-francesco-ungaro-281260.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     padding: 2rem 1rem;
@@ -36,7 +42,7 @@
     border: 1px solid mediumblue;
     border-radius: 20px;
     gap: 0.1rem;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .temp h1{
