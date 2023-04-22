@@ -1,12 +1,15 @@
 
-
+- set backgrond image based on the place
 -refresh the temperature every hour
 - add an onEnter function
 
--be able to go back to other cities that has already been searched for
 -Display other information 
 
 
 Refactoring
 -make app responsive
+
+Possible Features for React version
+
+-be able to go back to other cities that has already been searched for
 
