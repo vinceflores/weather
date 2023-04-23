@@ -2,6 +2,10 @@
 
 This is a simple weather app made with HTML and JavaScript. The app displays the current weather conditions for a given location, including temperature. 
 
+![desktop](https://user-images.githubusercontent.com/29023871/233865081-dc484155-edb5-418a-bf2a-d59d4e34f490.png)
+![MOBILE](https://user-images.githubusercontent.com/29023871/233865198-40673f3c-bd2f-4b70-a547-4109696044b2.png)
+![desktop-night](https://user-images.githubusercontent.com/29023871/233865091-5f914635-c06e-417b-b6b6-9aeb6b1211dd.png)
+
 
 
 
