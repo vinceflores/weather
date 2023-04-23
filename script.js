@@ -1,7 +1,3 @@
-// import  Selections  from "./Selections.mjs";
-
-
-
 
 const container = document.querySelector("[data-container]");
 const input = document.querySelector("[data-input]");
@@ -11,8 +7,6 @@ let country_selection = document.getElementById('country_selection');
 let city_selection = document.getElementById('city_selection'); 
 let state_selection = document.getElementById('state_selection') ;
 
-
-// let cityName  ="Toronto"; // TODO change to current location city
 
 let cityName = "";
 
@@ -25,7 +19,6 @@ let city = document.getElementById("city");
 let condition = document.getElementById("condition");
 let country = document.getElementById("country");
 
-// window.onload = () => getWeather(url);
 window.onload = () => {
   getAddress().then((i) => {
     cityName = i.city;
@@ -42,8 +35,6 @@ window.onload = () => {
 
 window.addEventListener("DOMContentLoaded", () => {
   displayCountries(); 
-  
-  
 })
 
 
@@ -57,7 +48,7 @@ function setSelection(){
   setCity()
 }
 
-// setCity();
+
 function setCity(){
   let c = document.getElementById('country_selection'); 
   co = c.options[c.selectedIndex].value.toString(); 
@@ -97,8 +88,7 @@ function handleClick() {
   }else{
     document.getElementById("inp").value = ""
     document.getElementById("inp").placeholder = "Enter Location"
-    // document.getElementById("inp").classList.add("my_input")
-    // inputEvent(); 
+
     url =
     "https://api.weatherapi.com/v1/current.json?key=0cbb7e4fc1764d81ae3154623230704&q=" +
     cityName +
@@ -115,7 +105,7 @@ async function getWeather(url) {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
-      // console.log(data.current.is_day);
+
       isDay(data.current.is_day); 
       country.textContent = data.location.region + ", " + data.location.country;
       let con = data.current.condition.text;
@@ -126,7 +116,6 @@ async function getWeather(url) {
         `The current temperature is ${currentTemperature} degrees Celsius.`
       );
       let temperature = parseInt(currentTemperature);
-      // extract method
       if (temperature >= 0) {
         if (temperature < 10) {
           hello.style.marginLeft = "1rem";
@@ -148,9 +137,7 @@ async function getWeather(url) {
           hello.style.fontSize = "155px";
         }
       }
-      // end of extraction
 
-      // hello.textContent = parseInt(currentTemperature) + "˚";
       hello.textContent = parseInt(currentTemperature);
       city.textContent = data.location.name;
       document.getElementById("icon").src = data.current.condition.icon;
@@ -168,7 +155,7 @@ function isDay(time_of_day){
 
 
 function changeBGImg(condition) {
-  fetch("./weather_conditions.json")
+  fetch("./lib/weather_conditions.json")
     .then((a) => a.json())
     .then((a) => {
       console.log(a);
@@ -204,16 +191,11 @@ async function getAddress() {
         country: data.country,
         region: data.region,
       };
-
-      // console.log('this is after fetch', address);
-      // return data.city;
       return address;
     });
   return city;
 }
 
-
-// display selections 
 
 function displayCountries(){
 
@@ -245,7 +227,7 @@ function getRequestOptions(){
 
 function getCountries(){
   
-  // gets all the countries 
+
 
   let a =  fetch("https://api.countrystatecity.in/v1/countries", getRequestOptions())
   .then(response => response.text())
@@ -257,7 +239,7 @@ function getCountries(){
         name: i.name , 
         short : i.iso2
        }
-      //  console.log(res)
+
        return res
     })
     return c; 
@@ -272,10 +254,10 @@ function getCities(country, region){
   .then(response => response.text())
   .then(result =>{
 
-    // console.log(eval(result));
+
     let stringed = eval(result); 
     let content = stringed.map(i => i.name); 
-    // console.log(content);
+
     return content 
   })
   .catch(error => console.log('error', error));
@@ -311,7 +293,6 @@ function getStateByCountry(country){
             }
               return obj
         })
-        // console.log(c)
       return c; 
   })
   .catch(error => console.log('error', error));
@@ -322,19 +303,9 @@ function getStateByCountry(country){
 function displayRegion(country){
   let arr = getStateByCountry(country).then(i => {
         let c = i.map(item => {
-          // console.log(item.short); 
           return `<option value =${item.short}> ${item.name} </option>`
         })
         state_selection.innerHTML = c.join(" "); 
       })
   
 }
-
-// displayRegion("CA")
-// displayCities("CA", "ON")
-
-
-
-
-
-

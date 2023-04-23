@@ -1,0 +1,434 @@
+[
+  {
+    "code": 1000,
+    "day": "Sunny",
+    "night": "Clear",
+    "icon": 113,
+    "dayColor": "https://t3.ftcdn.net/jpg/02/87/07/14/360_F_287071470_28B3I2aLZMJShmJY9m2rAHsF0RJ58Mv0.jpg",
+    "nightColor": "https://media.istockphoto.com/id/695419912/photo/beautiful-clear-twilight-night-sky-sunset-background.jpg?b=1&s=170667a&w=0&k=20&c=AVDL9eeSExyT_eVgSaiJc7xOjcJ0c9SMjn59oZhWg7w=",
+    "color": "skyblue"
+  },
+  {
+    "code": 1003,
+    "day": "Partly cloudy",
+    "night": "Partly cloudy",
+    "icon": 116,
+    "dayColor": "https://www.daytondailynews.com/resizer/c6EsnYddszBGCwLi9Z8teZkfxpc=/814x458/cloudfront-us-east-1.images.arcpublishing.com/coxohio/BIH4JXE4BCZV5ALE3R6M6XC77Q.jpg",
+    "nightColor": "https://www.daytondailynews.com/resizer/c6EsnYddszBGCwLi9Z8teZkfxpc=/814x458/cloudfront-us-east-1.images.arcpublishing.com/coxohio/BIH4JXE4BCZV5ALE3R6M6XC77Q.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1006,
+    "day": "Cloudy",
+    "night": "Cloudy",
+    "icon": 119,
+    "dayColor": "https://thumbs.dreamstime.com/b/grey-sky-cloudy-background-changeable-weather-natural-clouds-overcast-beautiful-dramatic-sky-effect-grey-aka-gray-sky-cloudy-141536221.jpg",
+    "nightColor": "https://c1.wallpaperflare.com/preview/717/892/904/air-sky-cloud-background.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1009,
+    "day": "Overcast",
+    "night": "Overcast",
+    "icon": 122,
+    "dayColor": "https://thumbs.dreamstime.com/b/clouds-overcast-sky-view-climate-environment-weather-concept-sky-background-overcast-sky-background-clouds-170172058.jpg",
+    "nightColor": "https://thumbs.dreamstime.com/b/clouds-overcast-sky-view-climate-environment-weather-concept-sky-background-overcast-sky-background-clouds-170172058.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1030,
+    "day": "Mist",
+    "night": "Mist",
+    "icon": 143,
+    "dayColor": "https://wallpapercave.com/wp/wp4155376.jpg",
+    "nightColor": "https://wallpapercave.com/wp/wp4155376.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1063,
+    "day": "Patchy rain possible",
+    "night": "Patchy rain possible",
+    "icon": 176,
+    "dayColor": "https://live.staticflickr.com/8365/8561983131_0218ffc427_b.jpg",
+    "nightColor": "https://live.staticflickr.com/8365/8561983131_0218ffc427_b.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1066,
+    "day": "Patchy snow possible",
+    "night": "Patchy snow possible",
+    "icon": 179,
+    "dayColor": "https://bloximages.newyork1.vip.townnews.com/toronto.com/content/tncms/assets/v3/editorial/6/dd/6dd6ec3a-f985-523c-bdd4-965babc5452d/63f60cd016df2.image.jpg",
+    "nightColor": "https://bloximages.newyork1.vip.townnews.com/toronto.com/content/tncms/assets/v3/editorial/6/dd/6dd6ec3a-f985-523c-bdd4-965babc5452d/63f60cd016df2.image.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1069,
+    "day": "Patchy sleet possible",
+    "night": "Patchy sleet possible",
+    "icon": 182,
+    "dayColor": "https://media.istockphoto.com/id/1185021641/photo/tiny-grains-of-soft-hail-fall-on-the-wet-brown-floor-of-a-balcony.jpg?s=612x612&w=0&k=20&c=zLoF48ZMORXKOmklDUb1cUjYp2vYe5qJ3TgVlbgJx3c=",
+    "nightColor": "https://media.istockphoto.com/id/1185021641/photo/tiny-grains-of-soft-hail-fall-on-the-wet-brown-floor-of-a-balcony.jpg?s=612x612&w=0&k=20&c=zLoF48ZMORXKOmklDUb1cUjYp2vYe5qJ3TgVlbgJx3c=",
+    "color": "blue"
+  },
+  {
+    "code": 1072,
+    "day": "Patchy freezing drizzle possible",
+    "night": "Patchy freezing drizzle possible",
+    "icon": 185,
+    "dayColor": "https://st2.depositphotos.com/3038569/8727/i/950/depositphotos_87276580-stock-photo-winter-background-winter-road.jpg",
+    "nightColor": "https://st2.depositphotos.com/3038569/8727/i/950/depositphotos_87276580-stock-photo-winter-background-winter-road.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1087,
+    "day": "Thundery outbreaks possible",
+    "night": "Thundery outbreaks possible",
+    "icon": 200,
+    "dayColor": "https://media.wired.com/photos/5d51b954b8d30b00081f6ec5/master/w_2560%2Cc_limit/Science_ArcticLighning_574898893.jpg",
+    "nightColor": "https://images.axios.com/Ilq15tGFTqp8AgbGZC9aeYhKXuA=/213x0:1920x1280/1920x1440/2019/05/20/1558318917140.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1114,
+    "day": "Blowing snow",
+    "night": "Blowing snow",
+    "icon": 227,
+    "dayColor": "https://i.ytimg.com/vi/OhqIILyct5A/maxresdefault.jpg",
+    "nightColor": "https://i.ytimg.com/vi/OhqIILyct5A/maxresdefault.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1117,
+    "day": "Blizzard",
+    "night": "Blizzard",
+    "icon": 230,
+    "dayColor": "https://www.farmersalmanac.com/wp-content/uploads/2021/01/blizzard-man-walking-winter-as_289632411.jpeg",
+    "nightColor": "https://www.farmersalmanac.com/wp-content/uploads/2021/01/blizzard-man-walking-winter-as_289632411.jpeg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1135,
+    "day": "Fog",
+    "night": "Fog",
+    "icon": 248,
+    "dayColor": "https://news.cgtn.com/news/78637a4e30636a4e79417a4e33416a4d3445444f31457a6333566d54/img/2eadc6f9368449ad9baa87621dd7ef85/2eadc6f9368449ad9baa87621dd7ef85.jpg",
+    "nightColor": "https://news.cgtn.com/news/78637a4e30636a4e79417a4e33416a4d3445444f31457a6333566d54/img/2eadc6f9368449ad9baa87621dd7ef85/2eadc6f9368449ad9baa87621dd7ef85.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1147,
+    "day": "Freezing fog",
+    "night": "Freezing fog",
+    "icon": 260,
+    "dayColor": "https://i.cbc.ca/1.5428513.1579126139!/fileImage/httpImage/fog-in-edmonton.jpg",
+    "nightColor": "https://i.cbc.ca/1.5428513.1579126139!/fileImage/httpImage/fog-in-edmonton.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1150,
+    "day": "Patchy light drizzle",
+    "night": "Patchy light drizzle",
+    "icon": 263,
+    "dayColor": "https://previews.123rf.com/images/rattanakun/rattanakun1911/rattanakun191100153/134649211-drops-of-rain-drizzle-on-the-glass-windshield-in-the-evening-street-in-the-heavy-rain-bokeh-tail-lig.jpg",
+    "nightColor": "https://previews.123rf.com/images/rattanakun/rattanakun1911/rattanakun191100153/134649211-drops-of-rain-drizzle-on-the-glass-windshield-in-the-evening-street-in-the-heavy-rain-bokeh-tail-lig.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1153,
+    "day": "Light drizzle",
+    "night": "Light drizzle",
+    "icon": 266,
+    "dayColor": "https://previews.123rf.com/images/rattanakun/rattanakun1911/rattanakun191100153/134649211-drops-of-rain-drizzle-on-the-glass-windshield-in-the-evening-street-in-the-heavy-rain-bokeh-tail-lig.jpg",
+    "nightColor": "https://previews.123rf.com/images/rattanakun/rattanakun1911/rattanakun191100153/134649211-drops-of-rain-drizzle-on-the-glass-windshield-in-the-evening-street-in-the-heavy-rain-bokeh-tail-lig.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1168,
+    "day": "Freezing drizzle",
+    "night": "Freezing drizzle",
+    "icon": 281,
+    "dayColor": "https://e3.365dm.com/23/01/1600x900/skynews-london-weather-uk_6035504.jpg?20230125090816",
+    "nightColor": "https://e3.365dm.com/23/01/1600x900/skynews-london-weather-uk_6035504.jpg?20230125090816",
+    "color": "skyblue"
+  },
+  {
+    "code": 1171,
+    "day": "Heavy freezing drizzle",
+    "night": "Heavy freezing drizzle",
+    "icon": 284,
+    "dayColor": "https://e3.365dm.com/23/01/1600x900/skynews-london-weather-uk_6035504.jpg?20230125090816",
+    "nightColor": "https://e3.365dm.com/23/01/1600x900/skynews-london-weather-uk_6035504.jpg?20230125090816",
+    "color": "skyblue"
+  },
+  {
+    "code": 1180,
+    "day": "Patchy light rain",
+    "night": "Patchy light rain",
+    "icon": 293,
+    "dayColor": "https://assets1.cbsnewsstatic.com/i/cbslocal/wp-content/uploads/sites/15909782/2019/04/shutterstock_681346432.jpg",
+    "nightColor": "https://assets1.cbsnewsstatic.com/i/cbslocal/wp-content/uploads/sites/15909782/2019/04/shutterstock_681346432.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1183,
+    "day": "Light rain",
+    "night": "Light rain",
+    "icon": 296,
+    "dayColor": "https://assets1.cbsnewsstatic.com/i/cbslocal/wp-content/uploads/sites/15909782/2019/04/shutterstock_681346432.jpg",
+    "nightColor": "https://assets1.cbsnewsstatic.com/i/cbslocal/wp-content/uploads/sites/15909782/2019/04/shutterstock_681346432.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1186,
+    "day": "Moderate rain at times",
+    "night": "Moderate rain at times",
+    "icon": 299,
+    "dayColor": "https://enlokaantar.prixacdn.net/media/gallery_folder/rain_7J3AwCjf1q.jpg",
+    "nightColor": "https://enlokaantar.prixacdn.net/media/gallery_folder/rain_7J3AwCjf1q.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1189,
+    "day": "Moderate rain",
+    "night": "Moderate rain",
+    "icon": 302,
+    "dayColor": "https://enlokaantar.prixacdn.net/media/gallery_folder/rain_7J3AwCjf1q.jpg",
+    "nightColor": "https://enlokaantar.prixacdn.net/media/gallery_folder/rain_7J3AwCjf1q.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1192,
+    "day": "Heavy rain at times",
+    "night": "Heavy rain at times",
+    "icon": 305,
+    "dayColor": "https://thumbs.dreamstime.com/b/hand-blue-umbrella-under-heavy-rain-against-nature-background-rainy-weather-concept-hand-blue-umbrella-under-heavy-rain-153356243.jpg",
+    "nightColor": "https://thumbs.dreamstime.com/b/hand-blue-umbrella-under-heavy-rain-against-nature-background-rainy-weather-concept-hand-blue-umbrella-under-heavy-rain-153356243.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1195,
+    "day": "Heavy rain",
+    "night": "Heavy rain",
+    "icon": 308,
+    "dayColor": "https://thumbs.dreamstime.com/b/hand-blue-umbrella-under-heavy-rain-against-nature-background-rainy-weather-concept-hand-blue-umbrella-under-heavy-rain-153356243.jpg",
+    "nightColor": "https://thumbs.dreamstime.com/b/hand-blue-umbrella-under-heavy-rain-against-nature-background-rainy-weather-concept-hand-blue-umbrella-under-heavy-rain-153356243.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1198,
+    "day": "Light freezing rain",
+    "night": "Light freezing rain",
+    "icon": 311,
+    "dayColor": "https://st2.depositphotos.com/3038569/8727/i/950/depositphotos_87276580-stock-photo-winter-background-winter-road.jpg",
+    "nightColor": "https://st2.depositphotos.com/3038569/8727/i/950/depositphotos_87276580-stock-photo-winter-background-winter-road.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1201,
+    "day": "Moderate or heavy freezing rain",
+    "night": "Moderate or heavy freezing rain",
+    "icon": 314,
+    "dayColor": "https://st2.depositphotos.com/3038569/8727/i/950/depositphotos_87276580-stock-photo-winter-background-winter-road.jpg",
+    "nightColor": "https://st2.depositphotos.com/3038569/8727/i/950/depositphotos_87276580-stock-photo-winter-background-winter-road.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1204,
+    "day": "Light sleet",
+    "night": "Light sleet",
+    "icon": 317,
+    "dayColor": "https://thumbs.dreamstime.com/b/branch-melting-sleet-ice-37431608.jpg",
+    "nightColor": "https://thumbs.dreamstime.com/b/branch-melting-sleet-ice-37431608.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1207,
+    "day": "Moderate or heavy sleet",
+    "night": "Moderate or heavy sleet",
+    "icon": 320,
+    "dayColor": "https://thumbs.dreamstime.com/b/branch-melting-sleet-ice-37431608.jpg",
+    "nightColor": "https://thumbs.dreamstime.com/b/branch-melting-sleet-ice-37431608.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1210,
+    "day": "Patchy light snow",
+    "night": "Patchy light snow",
+    "icon": 323,
+    "dayColor": "https://www.rd.com/wp-content/uploads/2019/12/shutterstock_182286515-scaled.jpg",
+    "nightColor": "https://www.rd.com/wp-content/uploads/2019/12/shutterstock_182286515-scaled.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1213,
+    "day": "Light snow",
+    "night": "Light snow",
+    "icon": 326,
+    "dayColor": "https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2021/10/1024/512/GettyImages-1230491291.jpg?ve=1&tl=1",
+    "nightColor": "https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2021/10/1024/512/GettyImages-1230491291.jpg?ve=1&tl=1",
+    "color": "skyblue"
+  },
+  {
+    "code": 1216,
+    "day": "Patchy moderate snow",
+    "night": "Patchy moderate snow",
+    "icon": 329,
+    "dayColor": "https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2021/10/1024/512/GettyImages-1230491291.jpg?ve=1&tl=1",
+    "nightColor": "https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2021/10/1024/512/GettyImages-1230491291.jpg?ve=1&tl=1",
+    "color": "skyblue"
+  },
+  {
+    "code": 1219,
+    "day": "Moderate snow",
+    "night": "Moderate snow",
+    "icon": 332,
+    "dayColor": "https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2021/10/1024/512/GettyImages-1230491291.jpg?ve=1&tl=1",
+    "nightColor": "https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2021/10/1024/512/GettyImages-1230491291.jpg?ve=1&tl=1",
+    "color": "skyblue"
+  },
+  {
+    "code": 1222,
+    "day": "Patchy heavy snow",
+    "night": "Patchy heavy snow",
+    "icon": 335,
+    "dayColor": "https://i0.wp.com/media.globalnews.ca/videostatic/news/6id7bl9y6w-58asxrpdlj/TU_CALI_VMS.jpg?w=1040&quality=70&strip=all",
+    "nightColor": "https://i0.wp.com/media.globalnews.ca/videostatic/news/6id7bl9y6w-58asxrpdlj/TU_CALI_VMS.jpg?w=1040&quality=70&strip=all",
+    "color": "skyblue"
+  },
+  {
+    "code": 1225,
+    "day": "Heavy snow",
+    "night": "Heavy snow",
+    "icon": 338,
+    "dayColor": "https://i0.wp.com/media.globalnews.ca/videostatic/news/6id7bl9y6w-58asxrpdlj/TU_CALI_VMS.jpg?w=1040&quality=70&strip=all",
+    "nightColor": "https://i0.wp.com/media.globalnews.ca/videostatic/news/6id7bl9y6w-58asxrpdlj/TU_CALI_VMS.jpg?w=1040&quality=70&strip=all",
+    "color": "skyblue"
+  },
+  {
+    "code": 1237,
+    "day": "Ice pellets",
+    "night": "Ice pellets",
+    "icon": 350,
+    "dayColor": "https://i0.wp.com/media.globalnews.ca/videostatic/news/6id7bl9y6w-58asxrpdlj/TU_CALI_VMS.jpg?w=1040&quality=70&strip=all",
+    "nightColor": "https://i0.wp.com/media.globalnews.ca/videostatic/news/6id7bl9y6w-58asxrpdlj/TU_CALI_VMS.jpg?w=1040&quality=70&strip=all",
+    "color": "skyblue"
+  },
+  {
+    "code": 1240,
+    "day": "Light rain shower",
+    "night": "Light rain shower",
+    "icon": 353,
+    "dayColor": "https://www.montereyboats.com/zupload/library/1128/-3830-1000x700-0.jpg?ztv=20180522134749",
+    "nightColor": "https://www.montereyboats.com/zupload/library/1128/-3830-1000x700-0.jpg?ztv=20180522134749",
+    "color": "skyblue"
+  },
+  {
+    "code": 1243,
+    "day": "Moderate or heavy rain shower",
+    "night": "Moderate or heavy rain shower",
+    "icon": 356,
+    "dayColor": "https://www.montereyboats.com/zupload/library/1128/-3830-1000x700-0.jpg?ztv=20180522134749",
+    "nightColor": "https://www.montereyboats.com/zupload/library/1128/-3830-1000x700-0.jpg?ztv=20180522134749",
+    "color": "skyblue"
+  },
+  {
+    "code": 1246,
+    "day": "Torrential rain shower",
+    "night": "Torrential rain shower",
+    "icon": 359,
+    "dayColor": "https://www.montereyboats.com/zupload/library/1128/-3830-1000x700-0.jpg?ztv=20180522134749",
+    "nightColor": "https://www.montereyboats.com/zupload/library/1128/-3830-1000x700-0.jpg?ztv=20180522134749",
+    "color": "skyblue"
+  },
+  {
+    "code": 1249,
+    "day": "Light sleet showers",
+    "night": "Light sleet showers",
+    "icon": 362,
+    "dayColor": "https://www.montereyboats.com/zupload/library/1128/-3830-1000x700-0.jpg?ztv=20180522134749",
+    "nightColor": "https://www.montereyboats.com/zupload/library/1128/-3830-1000x700-0.jpg?ztv=20180522134749",
+    "color": "skyblue"
+  },
+  {
+    "code": 1252,
+    "day": "Moderate or heavy sleet showers",
+    "night": "Moderate or heavy sleet showers",
+    "icon": 365,
+    "dayColor": "https://www.montereyboats.com/zupload/library/1128/-3830-1000x700-0.jpg?ztv=20180522134749",
+    "nightColor": "https://www.montereyboats.com/zupload/library/1128/-3830-1000x700-0.jpg?ztv=20180522134749",
+    "color": "skyblue"
+  },
+  {
+    "code": 1255,
+    "day": "Light snow showers",
+    "night": "Light snow showers",
+    "icon": 368,
+    "dayColor": "https://thumbs.dreamstime.com/b/christmas-snow-falling-snowflakes-light-background-snowfall-vector-illustration-eps-christmas-snow-falling-snowflakes-light-132768293.jpg",
+    "nightColor": "https://thumbs.dreamstime.com/b/christmas-snow-falling-snowflakes-light-background-snowfall-vector-illustration-eps-christmas-snow-falling-snowflakes-light-132768293.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1258,
+    "day": "Moderate or heavy snow showers",
+    "night": "Moderate or heavy snow showers",
+    "icon": 371,
+    "dayColor": "https://thumbs.dreamstime.com/b/christmas-snow-falling-snowflakes-light-background-snowfall-vector-illustration-eps-christmas-snow-falling-snowflakes-light-132768293.jpg",
+    "nightColor": "https://thumbs.dreamstime.com/b/christmas-snow-falling-snowflakes-light-background-snowfall-vector-illustration-eps-christmas-snow-falling-snowflakes-light-132768293.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1261,
+    "day": "Light showers of ice pellets",
+    "night": "Light showers of ice pellets",
+    "icon": 374,
+    "dayColor": "https://thumbs.dreamstime.com/b/christmas-snow-falling-snowflakes-light-background-snowfall-vector-illustration-eps-christmas-snow-falling-snowflakes-light-132768293.jpg",
+    "nightColor": "https://thumbs.dreamstime.com/b/christmas-snow-falling-snowflakes-light-background-snowfall-vector-illustration-eps-christmas-snow-falling-snowflakes-light-132768293.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1264,
+    "day": "Moderate or heavy showers of ice pellets",
+    "night": "Moderate or heavy showers of ice pellets",
+    "icon": 377,
+    "dayColor": "https://thumbs.dreamstime.com/b/christmas-snow-falling-snowflakes-light-background-snowfall-vector-illustration-eps-christmas-snow-falling-snowflakes-light-132768293.jpg",
+    "nightColor": "https://thumbs.dreamstime.com/b/christmas-snow-falling-snowflakes-light-background-snowfall-vector-illustration-eps-christmas-snow-falling-snowflakes-light-132768293.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1273,
+    "day": "Patchy light rain with thunder",
+    "night": "Patchy light rain with thunder",
+    "icon": 386,
+    "dayColor": "https://e0.pxfuel.com/wallpapers/828/715/desktop-wallpaper-rainy-lightning-storm-screensaver-animated-rainy-night-lightning-storm-huge-lightning-tear-the-heavy-rain-storm.jpg",
+    "nightColor": "https://e0.pxfuel.com/wallpapers/828/715/desktop-wallpaper-rainy-lightning-storm-screensaver-animated-rainy-night-lightning-storm-huge-lightning-tear-the-heavy-rain-storm.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1276,
+    "day": "Moderate or heavy rain with thunder",
+    "night": "Moderate or heavy rain with thunder",
+    "icon": 389,
+    "dayColor": "https://e0.pxfuel.com/wallpapers/828/715/desktop-wallpaper-rainy-lightning-storm-screensaver-animated-rainy-night-lightning-storm-huge-lightning-tear-the-heavy-rain-storm.jpg",
+    "nightColor": "https://e0.pxfuel.com/wallpapers/828/715/desktop-wallpaper-rainy-lightning-storm-screensaver-animated-rainy-night-lightning-storm-huge-lightning-tear-the-heavy-rain-storm.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1279,
+    "day": "Patchy light snow with thunder",
+    "night": "Patchy light snow with thunder",
+    "icon": 392,
+    "dayColor": "https://e0.pxfuel.com/wallpapers/828/715/desktop-wallpaper-rainy-lightning-storm-screensaver-animated-rainy-night-lightning-storm-huge-lightning-tear-the-heavy-rain-storm.jpg",
+    "nightColor": "https://e0.pxfuel.com/wallpapers/828/715/desktop-wallpaper-rainy-lightning-storm-screensaver-animated-rainy-night-lightning-storm-huge-lightning-tear-the-heavy-rain-storm.jpg",
+    "color": "skyblue"
+  },
+  {
+    "code": 1282,
+    "day": "Moderate or heavy snow with thunder",
+    "night": "Moderate or heavy snow with thunder",
+    "icon": 395,
+    "dayColor": "https://e0.pxfuel.com/wallpapers/828/715/desktop-wallpaper-rainy-lightning-storm-screensaver-animated-rainy-night-lightning-storm-huge-lightning-tear-the-heavy-rain-storm.jpg",
+    "nightColor": "https://e0.pxfuel.com/wallpapers/828/715/desktop-wallpaper-rainy-lightning-storm-screensaver-animated-rainy-night-lightning-storm-huge-lightning-tear-the-heavy-rain-storm.jpg",
+    "color": "skyblue"
+  }
+]
